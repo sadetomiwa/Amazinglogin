@@ -1,0 +1,66 @@
+*{
+  margin: 0px;
+  
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  height: 1000vh;
+  text-align: center;
+  
+}
+
+
+
+.container{
+  border: 1.5px solid grey;
+  height: 320px;
+  width: 400px;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 6px;
+  margin: 20px auto 25px auto;
+  padding-top: 25px;
+
+  
+}
+.cred input{
+  width: 272px;
+  height: 25px;
+  padding: 3px 7px;
+  margin-top: 3px;
+  border: 1px solid #a6a6a6;
+  background-color: #fff;
+  border-radius: 3px;
+
+}
+
+.butt{
+  width: 272px;
+  height: 25px;
+  padding: 3px 7px;
+  background-color: yellow;
+  border: 1px solid black;
+  background-image: linear-gradient(#f7da90, #e2b33b);
+  border-radius: 3px;
+}
+
+.new{
+  position: relative;
+  display: inline-block;
+  align-items: center;
+  font-size: 15px;
+  justify-content: center;
+}
+
+footer{
+  justify-content: center;
+  align-content: center;
+}
+
+.bbb{
+  justify-content: space-around;
+  
+
+}
